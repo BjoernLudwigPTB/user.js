@@ -208,7 +208,7 @@ user_pref("camera.control.face_detection.enabled",		false);
 // https://trac.torproject.org/projects/tor/ticket/16254
 // https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_geolocation-for-default-search-engine
 user_pref("browser.search.countryCode",				"DE");
-user_pref("browser.search.region",				"DEs");
+user_pref("browser.search.region",				"DE");
 user_pref("browser.search.geoip.url",				"");
 
 // PREF: Set Accept-Language HTTP header to en-US regardless of Firefox localization
