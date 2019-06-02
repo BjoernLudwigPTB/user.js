@@ -1141,3 +1141,7 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 // PREF: Fallbacks due compatibility reasons
 user_pref("security.ssl3.rsa_aes_256_sha",			true); // 0x35
 user_pref("security.ssl3.rsa_aes_128_sha",			true); // 0x2f
+
+// PREF: Don't close Firefox with last Tab but stay open with empty window
+// http://kb.mozillazine.org/About:config_entries#Browser.
+user_pref("browser.tabs.closeWindowWithLastTab",			false);
