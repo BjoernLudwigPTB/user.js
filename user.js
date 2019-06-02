@@ -209,8 +209,8 @@ user_pref("camera.control.face_detection.enabled",		false);
 // PREF: Disable GeoIP lookup on your address to set default search engine region
 // https://trac.torproject.org/projects/tor/ticket/16254
 // https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_geolocation-for-default-search-engine
-user_pref("browser.search.countryCode",				"US");
-user_pref("browser.search.region",				"US");
+user_pref("browser.search.countrsyCode",				"DE");
+user_pref("browser.search.region",				"DE");
 user_pref("browser.search.geoip.url",				"");
 
 // PREF: Set Accept-Language HTTP header to en-US regardless of Firefox localization
@@ -269,7 +269,7 @@ user_pref("security.mixed_content.block_active_content",	true);
 
 // PREF: Disable JAR from opening Unsafe File Types
 // http://kb.mozillazine.org/Network.jar.open-unsafe-types
-// CIS Mozilla Firefox 24 ESR v1.0.0 - 3.7 
+// CIS Mozilla Firefox 24 ESR v1.0.0 - 3.7
 user_pref("network.jar.open-unsafe-types",			false);
 
 // CIS 2.7.4 Disable Scripting of Plugins by JavaScript
@@ -283,7 +283,7 @@ user_pref("security.fileuri.strict_origin_policy",		true);
 
 // PREF: Disable Displaying Javascript in History URLs
 // http://kb.mozillazine.org/Browser.urlbar.filter.javascript
-// CIS 2.3.6 
+// CIS 2.3.6
 user_pref("browser.urlbar.filter.javascript",			true);
 
 // PREF: Disable asm.js
