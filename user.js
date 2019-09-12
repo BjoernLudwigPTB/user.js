@@ -1166,3 +1166,7 @@ user_pref("security.ssl3.rsa_aes_128_sha",			true); // 0x2f
 // PREF: Don't close Firefox with last Tab but stay open with empty window
 // http://kb.mozillazine.org/About:config_entries#Browser.
 user_pref("browser.tabs.closeWindowWithLastTab",			false);
+
+// PREF: Set backspace behaviour to go back a page in session history
+// http://kb.mozillazine.org/Browser.backspace_action.
+user_pref("browser.backspace_action",			0);
