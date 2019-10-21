@@ -1170,3 +1170,7 @@ user_pref("browser.tabs.closeWindowWithLastTab",			false);
 // PREF: Set backspace behaviour to go back a page in session history
 // http://kb.mozillazine.org/Browser.backspace_action.
 user_pref("browser.backspace_action",			0);
+
+// PREF: Enable typing the letter 'p' in PTB webmail sessions
+// https://developer.ibm.com/answers/questions/500335/unable-to-type-letter-p-into-mail-or-search-fields/.
+user_pref("dom.keyboardevent.keypress.hack.use_legacy_keycode_and_charcode",			"mail.ptb.de");
