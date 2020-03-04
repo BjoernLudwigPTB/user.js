@@ -191,11 +191,11 @@ user_pref("webgl.enable-debug-renderer-info",			false);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1360039
 user_pref("dom.maxHardwareConcurrency",				2);
 
-// PREF: Disable WebAssembly
+// PREF: Enable WebAssembly
 // https://webassembly.org/
 // https://en.wikipedia.org/wiki/WebAssembly
 // https://trac.torproject.org/projects/tor/ticket/21549
-user_pref("javascript.options.wasm",				false);
+user_pref("javascript.options.wasm",				true);
 
 /******************************************************************************
  * SECTION: Misc                                                              *
